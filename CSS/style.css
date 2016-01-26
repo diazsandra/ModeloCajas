@@ -1,21 +1,16 @@
 *{
 	background-image: url("http://38.media.tumblr.com/fd5267ff1121b0d3eb331a2bf831f0de/tumblr_mujst5GqFn1rlaox0o1_500.gif");
+	background-size: cover; 
 	color: black;
 }
 div {
 	width: 900px; 
 	height: 200px;
-	border: 5px solid pink;
-	border-right-color: white;
-	border-left-color: white;
-	border-top-style: hidden;
-	border-bottom-style: dotted;
-	border-left-style: dashed;
-	border-right-style: double;
+	border: 5px solid;
+	border-color: white pink;
+	border-style: hidden double dotted dashed;
 	border-radius: 20px;
-	padding-top: 50px;
-	padding:bottom: 50px;
-	margin: 20px 30px;
+	padding: 50px 50px;
 	background-image: url("http://www.snazzyspace.com/defaultimages/000000_birds-flying-away.gif");
 }
 div p {
@@ -26,12 +21,8 @@ div p {
 	text-align: center;
 	padding: 20px;
 	border: 5px dotted white;
-	border-top-color: magenta;
-	border-bottom-color: magenta;
-	border-top-style: groove;
-	border-bottom-style: ridge;
-	border-right-style: inset;
-	border-left-color: outset;
-	margin: 20px;
+	border-color: magenta white;
+	border-style: groove inset ridge outset;
+	margin: 40px;
 	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/4a/1e/ca/4a1ecad42aa7502b3578de9b8b331670.jpg")
 }
